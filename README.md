@@ -1,16 +1,15 @@
 # Nombre del Proyecto
 
-**"Aplicación gráfica creada con PyQt6 para gestionar tareas personales."**
+*"Aplicación gráfica creada con PyQt6 para gestionar tareas personales."*
 
 ## ✅ Requisitos basicos
 
 - Python 3.x
 - Asegurate de tener Python agregado al PATH.
-- Las demás dependencias están listadas en requirements.txt
 
 ## 🛠️ Cómo instalar y ejecutar
 
-Paso 1: Clonar el repositorio
+Paso 1: Clonar el repositorio o descargar.
 
     git clone https://github.com/Nosomute/app.git
 
@@ -21,6 +20,12 @@ En Windows:
     python -m venv venv
     venv\Scripts\activate
 
+    ¡Si la ejecución de scripts está deshabilitada!
+
+    et-ExecutionPolicy RemoteSigned -Scope CurrentUser
+    venv\Scripts\activate
+
+
 En macOS / Linux:
 
     python -m venv venv
@@ -30,11 +35,7 @@ Paso 3: Instalar las dependencias
 
     pip install -r requirements.txt
 
-Paso 4: eligir interprete
-
-    Python 3.x ('venv') .\venv\Scripts\python.exe (Recomendado)
-
-Paso 5: Ejecutar la aplicación
+Paso 4: Ejecutar la aplicación
 
     python src\main.py
 
