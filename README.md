@@ -20,7 +20,7 @@ En Windows:
     python -m venv venv
     venv\Scripts\activate
 
-    ¡Si la ejecución de scripts está deshabilitada!
+¡Si la ejecución de scripts está deshabilitada!
 
     et-ExecutionPolicy RemoteSigned -Scope CurrentUser
     venv\Scripts\activate
